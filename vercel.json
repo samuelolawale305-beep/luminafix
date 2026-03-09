@@ -1,8 +1,12 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/secureproxy",
-      "dest": "/api/secureproxy"
+      "source": "/secureproxy",
+      "destination": "/api/secureproxy"
+    },
+    {
+      "source": "/secureproxy.php",
+      "destination": "/api/secureproxy"
     }
   ]
 }
